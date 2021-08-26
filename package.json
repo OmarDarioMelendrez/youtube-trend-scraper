@@ -1,0 +1,14 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "scrapping youtube trends info",
+  "main": "/src/index.ts",
+  "author": "Hitoki",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  },
+  "scripts": {
+    "start": "tsc && (node ./dist/index.js)"
+  }
+}
